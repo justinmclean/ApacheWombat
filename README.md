@@ -56,7 +56,7 @@ Also inside the fonts directory is glyphicons halflings font this is normally a 
 >   Jan Kovarik, which is available under a MIT license.
 >   For details, see licenses/glyphicons.MIT.
 
-<small>Apache is a trademark of The Apache Software Foundation.</small>
+<sup>Apache is a trademark of The Apache Software Foundation.</sup>
 
 
 [1]:http://www.apache.org/dev/licensing-howto.html
