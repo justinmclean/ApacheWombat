@@ -211,3 +211,8 @@
    This product bundles Bootstrap 3.3.6, copyright Twitter, Inc.,
    which is available under a MIT license.
    For details, see licenses/bootstrap.MIT.
+
+   This product bundles normalize 3.0.3 copyright Nicolas Gallagher and
+   Jonathan Neal, which is available under a MIT license.
+   For details, see licenses/normalize.MIT.
+
