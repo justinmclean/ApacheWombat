@@ -2,9 +2,9 @@
 
 This is a demonstration in how to assemble the LICENSE and NOTICE files for a fictional project at the [Apache Software Foundation][12] called Apache Wombat.
 
-When assembling LICENSE and NOTICE file please to refer to the [assembling how to][1] and the [ASF Legal resolved questions][2].
+When assembling the LICENSE and NOTICE file please to refer to the [assembling how to][1] and the [ASF Legal resolved questions][2].
 
-A release of Apache Wombat would consists of all the files contained in this repository which is a copy of bootstrap.
+A release of Apache Wombat would consist of all the files contained in this repository which is a copy of bootstrap.
 
 Firstly add boilerplate LICENSE and NOTICE files to the project.
 One way to get these files is from the Apache website like so:  
@@ -13,9 +13,9 @@ One way to get these files is from the Apache website like so:
 
 Edit the NOTICE file to include the project name (Apache Wombat) and year of copyright (currently 2016).
 
-Bootstrap is licensed under a permissive [MIT licence][3]. This is listed at a Category A permissive license [compatible with the Apache 2.0 License][16].
+Bootstrap is licensed under a permissive [MIT licence][3]. This is listed as a Category A permissive license [compatible with the Apache 2.0 License][16].
 
-Save the license text and [add a pointer][13] to this file to LICENSE.
+Save the permissive license text and [add a pointer][13] to this file to LICENSE.
 
 `curl https://raw.githubusercontent.com/twbs/bootstrap/v3.3.2/LICENSE > licenses/bootstrap.MIT`
 
@@ -23,16 +23,16 @@ As this is the first component added to LICENSE a little more text is needed:
 
 >   APACHE WOMBAT SUBCOMPONENTS:
 >
->   The Apache Wombat includes a number of subcomponents with
+>   Apache Wombat includes a number of subcomponents with
 >   separate copyright notices and license terms. Your use of the source
->   code for the these subcomponents is subject to the terms and
+>   code for these subcomponents is subject to the terms and
 >   conditions of the following licenses. 
 >
 >   This product bundles Bootstrap 3.3.6, copyright Twitter, Inc.,
->   which is available under a MIT license.
+>   which is available under the MIT license.
 >   For details, see licenses/bootstrap.MIT.
 
-It's always a good idea to mention the product version in the license pointer as licenses may differ between versions of a product and have done in the bootstrap project.
+It's always a good idea to mention the product version in the license pointer as licenses may differ between versions of a product, as they have done in the bootstrap project.
 
 Next looking at the index.html you can see a number of references to other JavaScript frameworks and code. They include [HTML5 shiv][4], [Respond.js][6] and [jQuery][8].
 
@@ -42,7 +42,7 @@ Respond.js is [MIT licensed][9]. Again as it is not bundled so [nothing needs to
 
 All these pieces are permissively licensed (Category A) so there are [no licensing issues][17] with any of the dependencies.
 
-Looking inside bootstrap.css you can see that it includes normalize.css. Normalize.css is [MIT licensed][10] and as this is bundled it [needs to be added][13] to LICENSE. Download the license file and add a licence pointer to LICENSE to point to that license.
+Looking inside bootstrap.css you can see that it includes normalize.css. Normalize.css is [MIT licensed][10], and as this is bundled it [needs to be added][13] to LICENSE. Download the license file and add a licence pointer to LICENSE to point to that license.
 
 `curl https://raw.githubusercontent.com/necolas/normalize.css/master/LICENSE.md  > licenses/normalize.MIT`
 
