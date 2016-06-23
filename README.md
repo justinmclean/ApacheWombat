@@ -17,7 +17,7 @@ Bootstrap is licensed under a permissive [MIT licence][3]. This is listed at a C
 
 Save the license text and [add a pointer][13] to this file to LICENSE.
 
-`curl https://github.com/twbs/bootstrap/blob/v3.3.2/LICENSE > licenses/bootstrap.MIT`
+`curl https://raw.githubusercontent.com/twbs/bootstrap/v3.3.2/LICENSE > licenses/bootstrap.MIT`
 
 As this is the first component added to LICENSE a little more text is needed:
 
